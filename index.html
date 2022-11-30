@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Fabio Chirinos">
+  <meta name="description" content="Aplicacion de clima con JavaScript">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Titulo -->
+  <title>App clima</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/sol.png" type="image/x-icon">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Css -->
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1 class="titulo">Aplicación de clima</h1>
+    <div class="search-form">
+      <form id="search-form">
+        <div class="searchbox">
+          <input type="text" autocomplete="off" placeholder="Buscar ciudad" class="search" id="searchbox">
+        </div>
+      </form>
+    </div>
+    <div class="weather-card" id="card">
+      <div class="city" id="city">Lima, PE</div>
+      <div class="date" id="date">29/11/2022</div>
+      <div class="temperature">
+        <img src="./images/temp-mid.png" alt="icono de temperatura" class="temp-img" id="temp-img">
+        <div class="temp" id="temp">14°c</div>
+      </div>
+      <div class="weather" id="weather">Sol</div>
+      <div class="range" id="range">12°c / 18°c</div>
+    </div>
+  </main>
+  <footer>
+    <p>Creado por <a href="https://codealo.dev" target="_blank" rel="noopener noreferrer">Codealo</a> y modificado por
+      <a href="https://github.com/fabiochirinos" target="_blank" rel="noopener noreferrer">Fabio Chirinos</a>
+    </p>
+    <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank"
+        rel="noopener noreferrer">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank"
+        rel="noopener noreferrer">www.flaticon.com</a></p>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+
+</html>
